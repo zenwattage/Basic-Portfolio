@@ -1,0 +1,46 @@
+html {
+    width: 960px;
+
+}
+
+body {
+    background-image: url(../images/bananas.png);
+    background-position: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+}
+
+hr {
+    color: lightgreen;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+
+main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    
+    border-style: solid;
+
+}
+
+main.header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.heading {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+}
+
+
+footer {
+    background-color: #666666;
+}
