@@ -1,5 +1,8 @@
 html {
-    width: 960px;
+    width: auto;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -20,24 +23,28 @@ ul {
   
 li {
     float: left;
+    display: inline;
+}
+
+#aboutme {
+    font-size: 40px;
+    text-align: center;
+    background-color: blue;
 }
 
 li a {
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
 
-.active {
-    background-color: #4CAF50;
+#portfolio {
+    border-right: lightslategray solid;
+    border-left: lightslategray solid;
 }
-
 
 
 hr {
