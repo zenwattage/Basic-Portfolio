@@ -10,14 +10,31 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <h1 >About me</h1>
-            <li style="float:right"><a href="contact.html">Contact</a></li>
-            <li style="float:right"><a id="portfolio" href="portfolio.html">Portfolio</a></li>            
-            <li style="float:right"><a href="index.html">About</a></li>
-        </ul> 
-        
+        <ul >
+            <li><a id="home" href="index.html">Scott Hansford</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a id="portfolio" href="portfolio.html">Portfolio</a></li>            
+            <li><a href="index.html">About</a></li>
+        </ul>
     </nav>
     
+    
+    <div id="form">
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" name="firstname" size="100"><br>
+            Email:<br>
+            <input type="email" name="email" size="100"><br>
+            Message:<br>
+            <textarea name="message" rows="10" cols="76"></textarea>
+
+            <button type="submit" value="Submit" >Submit</button>
+        </form>
+    </div>
+
+
+    <div class="footer">
+        <h3> ©Scott Hansford</h3>
+    </div>
 </body>
 </html>
