@@ -84,6 +84,7 @@ heading hr {
 
 p  {
     color: #777777;
+    padding-left: 10px;
 }
 
 .footer {
@@ -102,8 +103,14 @@ p  {
     margin-bottom: 0;
 }
 
-.bottom {
+#top {
+    padding-top: 10px;
+}
+
+#bottom {
     padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -130,10 +137,12 @@ p  {
 }
 
 #myface {
+    padding-top: 20px;
     width: 180px;
     height: 180px;
     float: left;
     padding: 10px;
+    
 }
 /*-------------end --------------------*/
 
@@ -154,18 +163,61 @@ p  {
 } */
 
 #form {
-    background: #dddddd;
+    color: #777;
+    background: #ffffff;
     padding-left: 20px;
     width: 50%;
-    height: 350px;
+    height: 590px;
     margin-left: auto;
     margin-right: auto;
     resize: both;
+    border: solid #cccccc;
+    text-decoration-color: #777;
 }
 
 button {
-    color: #dddddd;
+    font-size: 100%;
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    color: #ffffff;
     padding: 10px;
     background-color: #4aaaa5;
-    clear: both;
 }
+
+
+
+
+
+/*---------- PORTFOLIO PAGE ---------*/
+
+div.portfolio {
+    width: 50%;
+    background-color:#ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    height: 580px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #cccccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+  }
