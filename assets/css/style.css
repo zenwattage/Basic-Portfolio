@@ -90,11 +90,12 @@ p  {
 .footer {
     padding: 10px;
     background-color: #666666;
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: block;
     bottom: 0;
     border-top: 8px solid #4aaaa5;
+    
 }
 
 .footer h3 {
@@ -112,10 +113,6 @@ p  {
     padding-left: 10px;
     padding-bottom: 20px;
 }
-
-
-
-/* --------- ELEMENT ID'S ----------------*/
 
 #aboutme {
     font-size: 40px;
@@ -144,23 +141,9 @@ p  {
     padding: 10px;
     
 }
-/*-------------end --------------------*/
 
 
 /*------------contact page -----------*/
-/* .form-container {
-    background-color: #dddddd;
-    height: 550px;
-    width: 660px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-/* form {
-    
-    width: 640px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-} */
 
 #form {
     color: #777;
@@ -173,7 +156,20 @@ p  {
     resize: both;
     border: solid #cccccc;
     text-decoration-color: #777;
+    max-width: 660px;
+    flex-grow: 1;
 }
+
+@media only screen and (min-width: 800px) {
+    #form input{
+      background-color: lightblue;
+      width: 630px ;
+    }
+
+    #form textarea{
+        columns: 5;
+    }
+  }
 
 button {
     font-size: 100%;
