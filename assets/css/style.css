@@ -189,6 +189,46 @@ button {
 
 /*---------- PORTFOLIO PAGE ---------*/
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 div.portfolio {
     width: 960px;
     background-color:#ffffff;
@@ -220,6 +260,7 @@ div.gallery {
     background-color: #4aaaa5;
   }
 
+<<<<<<< HEAD
   .card-img-top {
       height: 70%;
       width: 70%;
@@ -259,3 +300,5 @@ div.gallery {
       width: 100%;
     }
   }
+=======
+>>>>>>> b1169d6bf4177bd2efbdac073fa0e42f87e21c55
